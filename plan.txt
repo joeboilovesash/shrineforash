@@ -1,0 +1,6 @@
+i want her to click x button 
+after x ends, comes back to this page
+but this time, only y and z
+and so on until the last one
+after that, end page
+
