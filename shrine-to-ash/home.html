@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <audio id="myAudio" src="iloveu.wav"></audio>    
+    <meta charset="UTF-8" />
+    <title>Shrine to my lover</title>
+    
+    <style>
+        @font-face { font-family: Arial; src: url('bitcountfont/static/BitcountGridSingle_Roman-Light.ttf')}
+    h1 {
+        font-family: Arial;
+        color: rgb(85, 188, 236);
+    }
+    button {
+        font-family:Arial;
+        color:rgb(85, 188, 236);
+    }
+    p {
+        font-family:Arial;
+        color:rgb(85, 188, 236);
+    }
+    
+    </style>
+    <link href="home.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div style="text-align:center">
+        <h1>You'll always have a home in me baby</h1>
+        <p>Aren't you my pretty girl?</p>
+        
+        
+        <p><img src="heart8bit.png" width = "40" height = "40" class="image-align-left"></p>
+        
+        <button id="iloveu">I love you!</button>
+
+    <script>
+        const audio = new Audio("iloveu.wav");
+        btn = document.getElementById('iloveu')
+        console.log(btn)
+        btn.addEventListener("click", () => {
+            console.log(btn, 'is the button')
+            audio.play()
+        })
+    </script>
+    
+</body>
+
+</html>
